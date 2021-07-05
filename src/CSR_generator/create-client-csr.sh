@@ -6,7 +6,7 @@ if ! command -v openssl > /dev/null 2>&1; then
 fi
 
 if test ${#1} -lt 3; then
-    echo "Please provide organisation name at least 3 charachters long"
+    echo TMT
     exit 1
 fi
 
